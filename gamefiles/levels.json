@@ -1,0 +1,40 @@
+[
+	{
+		"id": "mainLevel",
+		"objects": [
+			{
+				"name": "keyboard",
+				"type": "keyboard"
+			},
+			{
+				"name": "lockedMouse",
+				"type": "lockedMouse"
+			},
+			{
+				"name": "3dmove",
+				"type": "3dmove",
+				"vars": { "mouse": "lockedMouse", "keyboard": "keyboard" }
+			},
+			{
+				"name": "JakeTheDog2",
+				"type": "talkingDog",
+				"sprite": null,
+				"isstatic": null,
+				"x": -50,
+				"y": -50,
+				"z": null,
+				"vars": {}
+			},
+			{
+				"name": "JakeTheDog1",
+				"type": "talkingDog",
+				"sprite": null,
+				"isstatic": null,
+				"x": 200,
+				"y": 200,
+				"z": null,
+				"vars": {}
+			}
+		]
+	}
+]
